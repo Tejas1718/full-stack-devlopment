@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 232, 218);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body h1{
+
+    background-color: rgb(117, 174, 174);
+    padding: 1rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+body h2{
+    background-color: beige;
+    padding: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+body h3{
+    background-color: brown;
+    padding: 1rem;
+    color:yellow;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.family-members {
+    background-color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    color:purple;
+    display: flex;
+    padding: 40px;
+    margin: 100px;
+}
+
+.document{
+
+    background-color:aquamarine;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1.25rem;
+    min-height: 100vh; 
+}
+
+header {
+    background: linear-gradient(135deg, #d85f37ff, #4dc289ff, #389c39ff);
+    color: #000000ff;
+    padding: 1.25rem 0; 
+    text-align: center;
+}
+header h1 {
+font-size:2rem;
+margin-bottom: 0.5rem;
+}
+header p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+nav{
+    background-color: #363e43ff;
+    padding: 1.25rem;
+    text-style:none;
+}
+nav h2{
+    font-size: 1.5rem;
+    color: #f5f5f5ff;
+    margin-bottom: 0.8rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 1.5rem;
+     
+}
+nav ul li {
+    padding:1rem 1rem;
+    background-color: #596268ff;
+    border-radius: 1.3rem;
+}
+
+nav ul li a {
+    color: #f5f5f5ff;
+    text-decoration: none;
+    font-weight: 600;
+}

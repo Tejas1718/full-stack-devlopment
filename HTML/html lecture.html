@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+ <header>
+      <h1>Complete HTML Tags</h1>
+      <p>
+        This page demonstrates all basic and advanced HTML tags without any CSS
+        styling
+      </p>
+    </header>
+<nav>
+    <h2>Table of Contents</h2>
+     <ul>
+        <li><a href="#textTags">Text Tags</a></li>
+        <li><a href="#paragraphs">Paragraphs</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#link&media">link &media</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#semantic">Semantic Tags</a></li>
+        <li><a href="#advanced">Advanced Tags</a></li>
+      </ul>
+</nav>
+<section id="textTags">
+      <h2 >Text Tags</h2>
+      <h1>heading</h1>
+      <h2>heading</h2>
+      <h3>heading</h3>
+      <h4>heading</h4>
+      <h5>heading</h5>
+      <h6>heading</h6>
+    </section>
+ <section id="paragraphs">
+     <h2>Paragraphs and Text Formatting </h2>
+      <p>
+      This is a regular paragraph with <strong>bold text</strong>,
+      <em>italic text</em>, <u>underlined text</u>
+    </p>
+    <p>
+     here is the text with <mark>highlighted text</mark>,
+     <del>deleted text</del>, <ins>inserted text</ins>
+
+    <p>here is the <small>small text</small>, and here is the <big>big text</big>.</p>
+
+    <p>mathematical expressions: H<sub>2</sub>O and E = mc<sup>2</sup>, Temperature = 25&deg;C</p>
+    <blockquote>
+      <p>This is a blockquote. It's used for longer quotations.</p>
+      <cite>-Author Name</cite>
+          <p><q>This is an inline quote</q> within a paragraph.</p>
+    </blockquote>
+<pre>
+    This is preformatted text.
+                   It preserves    spaces
+                       and line breaks.
+                          Perfect for code!
+</pre>
+<!-- code: Inline code snippet -->
+    <code>console.log("This is inline code");</code>
+    <!-- kbd: Keyboard input -->
+    <kbd>Ctrl + C</kbd> to copy
+    <!-- samp: Sample output from a program -->
+    <samp>Program output example</samp>
+    <!-- var: Variable in a mathematical expression or programming context -->
+    <var>x = y + z</var> (mathematical variable)
+    <!-- abbr: Abbreviation with a tooltip explanation -->
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    <!-- dfn: Definition of a term -->
+    <dfn>HTML</dfn> - HyperText Markup Language
+    </section>
+
+ <address>
+      <h2>Contact Information</h2>
+      <p>
+        For more information, please contact us at:
+      </p>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+   </address>
+
+<section id="lists">
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+      </ul>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2
+            <ol type="A">
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ol>
+            <ol type="I">
+                <li>Sub-item 3</li>
+                <li>Sub-item 4</li>
+            </ol>
+        </li>
+        <li>Item 3</li>
+      </ol>
+    </section>  
+    <section id= "linkandmedia">
+      <h2>
+        Links and Media
+      </h2>
+      <h3>Links</h3>
+      <p>
+        <a href="https://www.aspireq.com/" target="_blank">Visit Aspireq</a>
+      </p>
+      <p>
+        <a href="mailto:info@example.com">Email Us</a>
+      </p>
+      <p><a href="tel:+1234567890">Call Us</a></p>
+<h3>Images</h3>
+<p>
+  <img src="./image/demo.jpg" alt="Demo Image" width="300" height="200">
+</p>
+  <figure>
+    <img src="./image/demo.jpg" alt="Demo Image" width="300" height="200">
+    <figcaption>Demo Image with Caption</figcaption>
+  </figure>
+<h3>Audio</h3>
+ <audio src="./data/sample-12s.mp3" controls></audio>
+<h3>Video</h3>
+<video src="./data/sample-10s.mp4" controls width="300" height="200"></video>
+   </section>
+<section id="tables">
+  <h2>Table</h2>
+  <table border="1">
+    <caption>Table</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sumedh</td>
+        <td>Mathematics</td>
+        <td>85</td>
+        <td>Passed</td>
+      </tr>
+      <tr>
+        <td>Sushant</td>
+        <td>Physics</td>
+        <td>90</td>
+        <td>Passed</td>
+      </tr>
+      <tr>
+        <td>abhi</td>
+        <td>Chemistry</td>
+        <td>88</td>
+        <td>Passed</td>
+      </tr>
+      <tr>
+        <td>Tejas</td>
+        <td>Mathematics</td>
+        <td>85</td>
+        <td>Passed</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Average</td>
+        <td>88.6</td>
+        <td>--</td>
+      </tr>
+    </tfoot>
+  </table>
+  <table border="1">
+    <tr>
+      <th rowspan="2">Name</th>
+      <th colspan="2">Scores</th>
+    </tr>
+    <tr>
+      <th>Test 1</th>
+      <th>Test 2</th>
+    </tr>
+    <tr>
+      <td>Sumedh</td>
+      <td>85</td>
+      <td>90</td>
+    </tr>
+  </table>
+</section>
+
+<section id="forms">
+  <h2>Forms</h2>
+  <form action="#">
+    <fieldset>
+      <legend>Personal Information Form</legend>
+      <!-- First Name -->
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" required>
+      <br><br>
+          <!-- Last Name -->
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" required>
+      <br><br>
+          <!-- Email, Phone, Date of Birth, Age, Website, Password -->
+      <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+          <br><br>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <br><br>
+          <label for="date">Date of Birth:</label>
+          <input type="date" id="phone" name="phone" required>
+          <br><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+          <br><br>
+          <label for="website">Website:</label>
+          <input type="url" id="website" name="website">
+          <br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <br><br>
+        </fieldset>
+
+   <fieldset>
+    <legend>Personal Information</legend>
+     <!-- Gender (Radio) -->
+     <label for="gender">Gender:</label>
+     <label for="male">Male</label>
+     <input type="radio" id="male" name="gender" value="male"><br>
+     <label for="female">Female</label>
+     <input type="radio" id="female" name="gender" value="female"><br>
+     <label for="other">Other</label>
+     <input type="radio" id="other" name="gender" value="other"><br><br>
+      <!-- Interests (Checkboxes) -->
+      <label>Interests (check all that apply):</label><br>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+      <label for="coding">Coding</label><br>
+     
+      <input type="checkbox" id="design" name="interests" value="design">
+      <label for="design">Design</label><br>
+     
+      <input type="checkbox" id="music" name="interests" value="music">
+      <label for="music">Music</label><br>
+     
+      <input type="checkbox" id="sports" name="interests" value="sports">
+      <label for="sports">Sports</label>
+      <br><br>
+
+      <!-- Skill (Select) -->
+     <label for="skill">Skill</label>
+     <select name="skill" id="skill">
+         <option value="html">HTML</option>
+         <option value="css">CSS</option>
+         <option value="js">JavaScript</option>
+         <option value="python">Python</option>
+     </select><br><br>
+
+     <!-- Country  -->
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+        <option value="germany">Germany</option>
+        <option value="france">France</option>
+        <option value="japan">Japan</option>
+        <option value="china">China</option>
+      </select> <br><br>
+
+      <label for="range">Experience Level:</label>
+      <input type="range" id="range" name="experience_level" min="1" max="10" value="5">
+      <br><br>
+      
+      <!-- (Textarea) -->
+       <label for="experi ence">Experience:</label><br>
+       <textarea id="experience" name="experience" rows="4" cols="50" placeholder="Describe your experience..."></textarea><br><br>
+
+       <!-- favorite color -->
+       <label for="favorite_color">Favorite Color:</label>
+       <input type="color" id="favorite_color" name="favorite_color" value="#ff0000">
+       <br><br>
+        <!-- File Upload -->  
+         <label for="file-upload">Upload your file:</label>
+         <input type="file" id="file-upload" name="file-upload" accept=".jpg, .jpeg, .png, .pdf" multiple>
+         <br><br>
+
+         <!-- Submit Button -->
+         <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+          <input type="button" value="Click Me" onclick="alert('Button clicked!')">
+   </fieldset>
+  </form>
+
+</section>
+
+<!-- Semantic Tags -->
+<section id="semantic">
+   <h2>Semantic Tags</h2>
+ <article>
+    <h3>Article</h3>
+    <p>This is an article section. It contains content that is self-contained and can be distributed independently.</p>
+ </article>
+ <aside>
+   <h3>Aside</h3>
+   <p>This is an aside section. It contains content that is related to the main content but is not essential to its understanding.</p>
+    <h4>Related information</h4>
+        <ul>
+          <li><a href="#">Understanding HTML5</a></li>
+          <li><a href="#">The Benefits of Semantic Markup</a></li>
+          <li><a href="#">Getting Started with Web Accessibility</a></li>
+        </ul>
+ </aside>
+ <footer>
+    <h3>Footer</h3>
+    <p>This is the footer section. It contains information about the document, such as copyright and contact details.</p>
+    <p>&copy; 2023 Aspireq. All rights reserved.</p>
+ </footer>
+ <details>
+    <summary>More Information</summary>
+    <p>This section contains additional information that can be expanded or collapsed.</p>
+    <p>HTML5 introduces new semantic elements that help structure web content more meaningfully.</p>
+    <p>These elements improve accessibility and search engine optimization (SEO).</p>
+  </details>
+
+  <progress value="70"  max="100">70% Completed</progress>
+  <p>70% Completed</p>
+  <meter value="8" min="0" max="10">80%</meter>
+  <p>Rating: 8/10</p>
+</section>
+
+</body>
+</html>
+

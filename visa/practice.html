@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schengen Visa Application Form</title>
+  <link rel="stylesheet" href="practice.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Schengen Visa Application Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>Surname: <input type="text" name="surname" required /></label>
+        <label>Surname at birth: <input type="text" name="birth_surname" /></label>
+        <label>First name(s): <input type="text" name="first_name" required /></label>
+        <label>Date of Birth: <input type="date" name="dob" required /></label>
+        <label>Place of Birth: <input type="text" name="birth_place" /></label>
+        <label>Country of Birth: <input type="text" name="birth_country" /></label>
+        <label>Nationality: <input type="text" name="nationality" /></label>
+        <label>Other Nationalities: <input type="text" name="other_nationality" /></label>
+        <label>Sex: 
+          <select name="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label>
+        <label>Civil Status:
+          <select name="civil_status">
+            <option>Single</option>
+            <option>Married</option>
+            <option>Registered Partnership</option>
+            <option>Separated</option>
+            <option>Divorced</option>
+            <option>Widow(er)</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Travel Document</legend>
+        <label>Document Type:
+          <select name="document_type">
+            <option>Ordinary passport</option>
+            <option>Diplomatic passport</option>
+            <option>Service passport</option>
+            <option>Official passport</option>
+            <option>Special passport</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Document Number: <input type="text" name="doc_number" /></label>
+        <label>Date of Issue: <input type="date" name="issue_date" /></label>
+        <label>Valid Until: <input type="date" name="valid_until" /></label>
+        <label>Issued By: <input type="text" name="issued_by" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label>Home Address: <input type="text" name="address" /></label>
+        <label>Email Address: <input type="email" name="email" /></label>
+        <label>Phone Number: <input type="tel" name="phone" /></label>
+        <label>Current Occupation: <input type="text" name="occupation" /></label>
+        <label>Employer/School: <input type="text" name="employer" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Travel Details</legend>
+        <label>Purpose of Journey:
+          <select name="purpose">
+            <option>Tourism</option>
+            <option>Business</option>
+            <option>Family/Friends</option>
+            <option>Medical</option>
+            <option>Study</option>
+            <option>Transit</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Destination Country: <input type="text" name="destination_country" /></label>
+        <label>First Entry Country: <input type="text" name="entry_country" /></label>
+        <label>Arrival Date: <input type="date" name="arrival" /></label>
+        <label>Departure Date: <input type="date" name="departure" /></label>
+        <label>Number of Entries:
+          <select name="entries">
+            <option>Single</option>
+            <option>Two</option>
+            <option>Multiple</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Declarations</legend>
+        <label><input type="checkbox" required /> I confirm that all information is true and complete.</label>
+        <label><input type="checkbox" required /> I acknowledge the visa fee is non-refundable if denied.</label>
+      </fieldset>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>

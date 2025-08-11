@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1.25rem;
+    min-height: 100vh; 
+}
+
+header {
+    background: linear-gradient(135deg, #d85f37ff, #4dc289ff, #389c39ff);
+    color: #000000ff;
+    padding: 1.25rem 0; 
+    text-align: center;
+}
+header h1 {
+font-size:2rem;
+margin-bottom: 0.5rem;
+}
+header p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+nav{
+    background-color: #363e43ff;
+    padding: 1.25rem;
+    text-style:none;
+}
+nav h2{
+    font-size: 1.5rem;
+    color: #f5f5f5ff;
+    margin-bottom: 0.8rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 1.5rem;
+     
+}
+nav ul li {
+    padding:1rem 1rem;
+    background-color: #596268ff;
+    border-radius: 1.3rem;
+}
+
+nav ul li a {
+    color: #f5f5f5ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section {
+            margin: 3rem 0; /* Vertical spacing */
+            padding: 2rem; /* Inner spacing */
+            background: #f8f9fa; /* Light background */
+            border-radius: 10px; /* Rounded corners */
+            border-left: 5px solid #667eea; /* Colored border */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+        }
+        section h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #4ecdc4; /* Underline */
+        }
+        
+        section h3 {
+            color: #34495e;
+            margin: 1.5rem 0 1rem 0;
+            font-size: 1.4rem;
+        }
+        
+        /* Text Formatting */
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 0.5rem;
+        }
+        
+        h1 { font-size: 2.5rem; color: #2c3e50; } /* Main heading */
+        h2 { font-size: 2rem; color: #34495e; } /* Section heading */
+        h3 { font-size: 1.5rem; color: #4ecdc4; } /* Subsection */
+        h4 { font-size: 1.3rem; color: #667eea; } /* Sub-subsection */
+        h5 { font-size: 1.1rem; color: #ff6b6b; } /* Minor heading */
+        h6 { font-size: 1rem; color: #ff6b6b; } /* Smallest heading */
+    
+        p {
+            margin-bottom: 1rem;
+            text-align: justify; /* Justified text */
+        }
+        
+        strong {
+            color: #e74c3c; /* Red bold text */
+            font-weight: 700;
+        }
+        
+        em {
+            color: #9b59b6; /* Purple italic */
+            font-style: italic;
+        }
+        
+        mark {
+            background: linear-gradient(45deg, #fff3cd, #ffeaa7); /* Highlight */
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        code {
+            background: #2c3e50; /* Dark background */
+            color: #4ecdc4; /* Cyan text */
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace; /* Monospace font */
+        }
+        
+        pre {
+            background: #2c3e50;
+            color: #4ecdc4;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto; /* Scroll for overflow */
+            margin: 1rem 0;
+            border-left: 4px solid #4ecdc4;
+        }
+        
+        blockquote {
+            background: #ecf0f1; /* Light background */
+            border-left: 4px solid #3498db; /* Blue border */
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        cite {
+            color: #7f8c8d; /* Gray citation */
+            font-size: 0.9rem;
+        }
+
+       table{
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: hidden;
+       }
+       table h2{
+        font-size: 2.5rem;
+        color: #264a6fff;
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+       }
+   table caption{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    }
+    table thead {
+        color: #ffffff; /* Header text color */
+    }
+    table th {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #ddd;  
+            background: linear-gradient(45deg, #667eea, #764ba2); /* Gradient header */
+        color: #ffffff; /* White text */
+        font-weight: bold;
+    }
+
+    table td {
+        padding: 1rem;
+        border-bottom: 1px solid #ddd; 
+    }
+     table tr:hover{
+        background-color: #5ec3be9f; /* Light gray on hover */
+        transform: scale(1.02); /* Slightly enlarge on hover */
+        transition: background-color 0.3s ease, transform 0.3s ease; 
+     }
+
