@@ -260,6 +260,12 @@ input[type="checkbox"]{
 #experience{
     border-color: #13bac6;
     width: 100%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+border-width: 3
+
+
+}
+#favorite_color{
+    color: #3498db;
 }
 
