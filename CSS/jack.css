@@ -12,6 +12,7 @@
     position: relative;
     overflow-x: hidden;
     overflow: hidden;
+    background-color: rgb(51, 51, 51);
   }
   .container{
     z-index: 2;
@@ -40,19 +41,17 @@
       animation: float 6s ease-out infinite;
       box-shadow: 0 0 20px rgba(0, 255, 255, 0.4), 0 0 40px rgba(255, 0, 255, 0.3),
         0 0 60px rgba(255, 255, 0, 0.2);
-    }
-
-.shape:nth-child(1){
-        width: 0px;
-        height: 0px;
-        top: 0px;
-        left: 10px;
-        animation-delay: 0s;
-        background-color: #ff6b6b;
-        color: aquamarine;
  }
+ .shape:nth-child(1){
+      width:100px;
+      height:100px;
+      top:10%;
+      left: 332px;;
+     background-color: #ab47bc;
+ } 
+ 
    @keyframes float {
-    0%{
+     0%{
         transform:translate(0,0) rotate(0deg);
     }
     25%{
@@ -61,23 +60,23 @@
     50%{
         transform: translate(0px,-40px) rotate(180deg)  ;
     }    
-    75%{
+      75%{
         transform: translate(-20px,-20px) rotate(270deg);
-    }
-    100%{
+    } 
+     100%{
         transform: translate(0,0) rotate(360deg);
-    }
+    }  
    }
     
    .container {
-    background-color: rgba(255, 255, 255, 0.15); /* brighter */
+    background-color: rgba(215, 210, 210, 0.953); /* brighter */
     backdrop-filter: blur(25px);
     border-radius: 15px;
     padding: 40px;
     z-index: 2;
     overflow: hidden;
     max-width: 90vw;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* stronger shadow */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); 
   }
 
   .container::before {
@@ -92,7 +91,76 @@
     animation: gradient 3s ease infinite;
 }
 
-@keyframes gradient {
+ @keyframes gradient {
     0%, 100% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
+} 
+ .food-icons{
+background-color: aqua;
+width: 1.3rem;
 }
+.logo{
+  background-color:pink;
+}
+.form-container{
+color: #ab47bc;
+}
+.form-active{
+  color: #fcb045;  
+
+}
+#signupForm {
+    background-color: rgba(230, 227, 12, 0.456); 
+    padding: 20px;               
+    border-radius: 8px;          
+}
+.form-group{
+  color:purple;
+}
+
+input[type="text"]{
+    width:10.4rem; 
+}
+
+input[type="email"]{
+    width:9rem; 
+}
+input[type="password"]{
+    width:8rem; 
+}
+
+
+
+ .checkbox-group{
+color: violet
+
+}
+input[type="checkbox"]{
+  accent-color: green;
+}
+
+
+ 
+.btn{ 
+  background-color: rgb(51, 169, 15);
+}
+button[type="submit"]{
+  color: darkmagenta;
+
+}
+.toggle-btn{ 
+  background-color: rgb(25, 213, 126);
+}
+button[type="submit"]{
+  color: darkmagenta;
+
+}  
+
+
+
+
+
+
+
+
+
